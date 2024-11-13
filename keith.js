@@ -4,7 +4,7 @@ const util = require("util");
 const chalk = require("chalk");
 const speed = require("performance-now");
 const { smsg, formatp, tanggal, formatDate, getTime, sleep, clockString, fetchJson, getBuffer, jsonformat, generateProfilePicture, parseMention, getRandom, fetchBuffer } = require('./lib/botFunctions.js');
-const daddy = "254114018035@s.whatsapp.net";
+const daddy = "2347072189739@s.whatsapp.net";
 const { exec, spawn, execSync } = require("child_process");
 const {  TelegraPh, UploadFileUgu } = require("./lib/toUrl");
 const uploadtoimgur = require('./lib/Imgur')
@@ -24,7 +24,7 @@ const masterEval = require('./Functions/masterEval');
 
 
 const {
-   presence, autoread, botname,
+   presence, autoread, nuxsavsg,
   mode, prefix, mycode, author, packname,
   dev, gcpresence, antionce, antitag, antidelete
 } = require('./settings');
